@@ -1,0 +1,27 @@
+{
+  "name": "pipeline-node-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriMatheusBarros/pipeline-node-jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/YuriMatheusBarros/pipeline-node-jest/issues"
+  },
+  "homepage": "https://github.com/YuriMatheusBarros/pipeline-node-jest#readme",
+  "devDependencies": {
+    "jest": "^30.0.3"
+  },
+  "scripts": {
+  "test": "jest"
+  }
+}
