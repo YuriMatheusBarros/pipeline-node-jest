@@ -20,11 +20,12 @@ jobs:
     - name: Instalar dependências
       run: npm install
 
-    - name: Adicionar bin do node_modules ao PATH
-      run: echo "./node_modules/.bin" >> $GITHUB_PATH
+    - name: Corrigir permissões de Jest
+      run: chmod +x ./node_modules/.bin/jest
 
     - name: Executar testes
       run: npm test
 
     - name: Deploy simulado
       run: echo "Deploy realizado com sucesso!"
+
