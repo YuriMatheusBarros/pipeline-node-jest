@@ -20,6 +20,9 @@ jobs:
     - name: Instalar dependências
       run: npm install
 
+    - name: Adicionar bin do node_modules ao PATH
+      run: echo "./node_modules/.bin" >> $GITHUB_PATH
+
     - name: Executar testes
       run: npm test
 
